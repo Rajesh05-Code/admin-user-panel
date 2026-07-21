@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat";
+}
+.main-layout {
+  display: flex;
+}
+
+.layout-panel {
+  /* width: 100%; */
+  flex: 1;
+  height: 100vh;
+  overflow: auto;
+  /* content adjust automatically// */
+
+  background-color: #f5f6fa;
+}
+.page-content {
+  padding: 24px;
+}

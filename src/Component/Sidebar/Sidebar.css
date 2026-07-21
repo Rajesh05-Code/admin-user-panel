@@ -1,0 +1,148 @@
+.side-bar {
+  width: 240px;
+  min-width: 240px;
+  height: 100vh;
+  padding: 20px 20px 0 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  /* box-sizing: border-box; */
+}
+
+.hide-text {
+  width: 60px;
+  min-width: 60px;
+  height: 100vh;
+  padding: 6px;
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+
+.side-bar ::-webkit-scrollbar {
+  background-color: #fff;
+  width: 4px;
+}
+
+.side-bar ::-webkit-scrollbar-thumb {
+  background-color: #33333330;
+  border-radius: 50px;
+  width: 4px;
+}
+
+.sizing-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 38px;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-section {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.child-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.child-sidebar a {
+  text-decoration: none;
+}
+
+.child-sidebar a li {
+  color: black;
+  font-weight: 500;
+  padding: 10px;
+  list-style: none;
+  position: relative;
+  color: black;
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.child-sidebar li:hover {
+  background-color: #f5f6fa;
+  border-radius: 8px;
+  color: #dc2626;
+}
+
+.child-sidebar li:hover a {
+  color: #dc2626;
+}
+
+.side-btn {
+  position: sticky;
+  bottom: 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-top: auto;
+  background-color: #fff;
+  gap: 5px;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.side-btn li {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+
+  font-size: 16px;
+}
+
+.active-link li {
+  background-color: #f5f6fa !important ;
+  border-radius: 8px !important;
+  color: #dc2626 !important;
+}
+
+.tooltip {
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  visibility: hidden;
+  display: none;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.tooltip::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: -6px;
+  top: 50%;
+  transform: translate(15%, -50%);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid #333;
+}
+.child-sidebar li:hover .tooltip {
+  display: block;
+  visibility: visible;
+}

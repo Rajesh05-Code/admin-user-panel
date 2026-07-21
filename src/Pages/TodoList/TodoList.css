@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-todo {
+  padding: 25px;
+}
+.todo-top {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.todo-top input {
+  width: 70%;
+  padding: 12px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.todo-top button {
+  width: 350px;
+  background-color: #dc2626;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.addicon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.todo-panel {
+  margin-top: 30px;
+  background: white;
+}
+.todo-panel h1 {
+  padding: 20px 30px;
+  border-bottom: 0.5px solid black;
+}
+
+.todo-items {
+  padding: 0px 26px;
+}
+
+.todo-items:first-of-type {
+  padding-top: 30px;
+}
+
+.todo-items:last-of-type {
+  padding-bottom: 30px;
+}
+
+.todo-items:last-child .todolist-items {
+  border-bottom: none;
+}
+
+.todo-items button {
+  width: 40px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0.5px;
+}
+
+.todolist-items {
+  padding: 20px;
+  border-bottom: 0.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.todoedit-btn {
+  margin-left: auto;
+  color: #dc2626;
+  font-size: 14px;
+}
+
+
+.todolist-items .checkbox {
+  height: 20px;
+  width: 20px;
+}

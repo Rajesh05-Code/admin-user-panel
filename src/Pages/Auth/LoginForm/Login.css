@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.child-container {
+  /* background-color: #4857CF; */
+  width: 320px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.login_header {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  /* background-color: #c050c1; */
+  /* background-color: #4857CF; */
+  background: linear-gradient(62deg, #4857cf, #c050c1);
+
+  color: white;
+  border-radius: 12px 12px 0 0;
+}
+.loginform-container {
+  width: 320px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.input-form {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  font-size: 15px;
+  border: none;
+  border: 2px solid #f2f2f2;
+}
+.checkbox-wrap {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox-wrap p,
+.loginform-container span {
+  cursor: pointer;
+}
+
+.checkbox-btn {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.checkbox-btn input {
+  width: 16px !important;
+  height: 16px;
+}
+.login-btn {
+  margin-top: 4px;
+  width: 100%;
+  color: #ffffff;
+  background: linear-gradient(62deg, #4857cf, #c050c1);
+  padding: 12px;
+  border-radius: 50px;
+  font-size: 16px;
+  border: none;
+}
+
+.forgot-para {
+  font-size: 14px;
+  text-align: center;
+}
+
+.para-class {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* <!-- #C050C1
+#4857CF
+#F2F2F2 --> */

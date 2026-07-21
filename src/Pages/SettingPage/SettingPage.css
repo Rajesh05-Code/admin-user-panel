@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-tab {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.main-tab span {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.setting-panel {
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.icon-logo {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+}
+
+.icon-img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  /* border: 2px solid #000; */
+}
+
+.btn {
+  background-color: #dc2626;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #931717 !important;
+}
+
+.btns {
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-style:hover {
+  cursor: pointer;
+  color: #f5f6fa;
+  background-color: #dc2626;
+}
+
+.setting-form input {
+  padding: 12px;
+  border-radius: 50px;
+  border: 2px solid #f2f2f2;
+  font-size: 15px;
+}
+
+.select-option {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  border: 2px solid #f2f2f2;
+  font-size: 15px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  gap: 20px;
+}
+
+.form-grid div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radiobtn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.radiobtn-child {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+
+.form-grid textarea {
+  width: 100%;
+  border-radius: 20px;
+  min-height: 44px;
+  padding: 12px;
+
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.form-buttons {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.btn-style {
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  border: none;
+}
+
+.active-link {
+  background-color: white !important ;
+  border-radius: 8px !important;
+  color: #dc2626 !important;
+  border-bottom: 3px solid #dc2626;
+}
+
+.no-active {
+  background-color: white !important ;
+  color: #ccc;
+  border-radius: 8px !important;
+
+  border-bottom: 3px solid #ccc;
+}
+
+/* //...............Password................// */
+
+.password-panel {
+
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+
+.passwordform-container {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.passwordform-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.passwordform-grid div {
+  /* display: flex; */
+  flex-direction: column;
+  gap: 8px;
+}
+
+.passwordform-grid label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.passwordform-grid input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  border: 2px solid #f2f2f2;
+  font-size: 15px;
+}
+
+.password-btn-wrap {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 20px;
+}
+
+.password-btn-wrap button {
+  padding: 12px;
+  border-radius: 20px;
+ /* width: 200px; */
+ width: 100%;
+  font-size: 15px;
+}
+
+.password-btn-wrap button:hover {
+  cursor: pointer;
+  color: #f5f6fa;
+  background-color: #dc2626;
+}
